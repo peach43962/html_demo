@@ -1,0 +1,121 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}/* banner  */
+nav {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .menu {
+    float: left;
+}
+
+nav .search {
+    float: right;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: auto;
+    border: none;
+    background: none;
+}
+
+/* input */
+#keyword{
+    margin-top:15px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    line-height: 55px;
+    text-decoration: none;
+    padding: 0 15px;
+    display: block;
+    transition: all 5s;
+}
+
+nav .logo a {
+    padding-right: 50px;
+}
+
+nav .menu a:hover,
+nav .search a:hover {
+    background-color: pink;
+    color: black;
+}
+
+/* sidebar  */
+#left {
+    display: inline-flex;
+    width: 100%;
+}
+.left li {
+    list-style: none;
+}
+.col-3 {
+    height:600px;
+    width: 110px;
+}
+.col-3 a {
+    color: black;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration: none;
+    padding: 3px 15px;
+    display: block;
+    transition: all 5s;
+}
+
+.col-3 a:hover {
+    background-color: pink;
+    color: black;
+}
+/* footer  */
+footer {
+    line-height: 100px;
+}
+
+footer .col-4 {
+    float: right;
+}
+footer p {
+    color: #555;
+    font-size: 18px;
+    float: left;
+}
+
+footer .col-4 a {
+    margin: 0 10px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    background: #555;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+footer .col-4 a:hover {
+    color: rgb(123, 228, 240);
+}
